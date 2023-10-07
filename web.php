@@ -47,13 +47,13 @@ Route::post("/save", function () {
     ]);
 });
 
-Route::put("/save", function () {
+Route::put("/add", function () {
     return response()->json([
         "msg"=> "წარმატებით დაემატა"
     ]);
 });
 
-Route::delete("/save", function () {
+Route::delete("/delete", function () {
     return response()->json([
         "msg"=> "წარმატებით წაიშალა"
     ]);
