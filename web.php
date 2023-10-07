@@ -37,9 +37,6 @@ Route::get('currentUniversity', function () {
     return "BTU";
 });
 
-Route::get('currentUniversity', function () {
-    return "BTU";
-});
 
 Route::post("/save", function () {
     return response()->json([
